@@ -1,0 +1,31 @@
+{
+  "name": "standard-request-handler",
+  "version": "1.0.0",
+  "description": "Pure standard `Request => Response` wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test.ts"
+  },
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/standard-request-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gerhut/standard-request-handler/issues"
+  },
+  "homepage": "https://github.com/Gerhut/standard-request-handler#readme",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.0",
+    "@types/node-fetch": "^2.5.4",
+    "axiosist": "^0.7.0",
+    "mocha": "^6.2.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
